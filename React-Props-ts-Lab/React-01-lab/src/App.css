@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.prog{
+  width: 100%;
+  height: 300px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+h1,h2{
+  color: blue;
+}
+.App{
+  height: 100vh;
+  justify-content: space-between;
+  text-overflow: clip;
+  overflow-x: hidden;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.content{
+  border-radius: 3px;
+  border: 1px solid;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+
